@@ -30,7 +30,7 @@ int main( int argc, char* argv[] )
                     number_of_lines++;
                 }
             }
-            line1.close();
+            line1.close(); // close the files
             cout<<" "<<argv[arg]<<": "<<number_of_lines<<endl;
     }
     exit(0); // this means that the program executed correctly!
